@@ -1,0 +1,41 @@
+Initiliaze project package.json file
+npm init
+
+
+Dev dependencies
+npm install webpack --save-dev
+
+
+When we need to setup all the dependencies from package.json file
+npm install
+
+Local server setup with live-server
+
+npm bin -g (see if npm path is added in env variable path)
+
+Run Cmd as administrator and then run below command
+
+npm install -g live-server [--8080]
+
+> live-server (to run the server)
+> ctrl + c (stop the server)
+
+Start creating your webpack.config.js
+setup config option to make the bundler
+
+
+Now install webpack-cli
+npm i webpack-cli --save-dev
+
+This command is used to open html file from dist
+open dist/index.html
+
+This will help us to load the page automatically when we make any change in the code, 
+internally it will bundle the latest code changes and move the bundle files to the desired location
+
+> npm install webpack-dev-server --save-dev
+
+devServer object will be used in webpack.config.js file
+
+Move html file from /src to /dist folder every time
+npm install html-webpack-plugin --save-dev
