@@ -1,3 +1,3 @@
 console.log("imported module");
 
-export default "Basic functionalities";
+export default 555;

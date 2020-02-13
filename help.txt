@@ -39,3 +39,13 @@ devServer object will be used in webpack.config.js file
 
 Move html file from /src to /dist folder every time
 npm install html-webpack-plugin --save-dev  
+
+Install Babel for this project to enable ES6 features
+npm install babel-core babel-preset-env babel-loader --save-dev
+
+if above cmd dosent work try below command
+npm install --save-dev @babel/core @babel/preset-env
+
+
+Install polyfills for earlier version
+npm install babel-polyfill --save
