@@ -38,4 +38,4 @@ internally it will bundle the latest code changes and move the bundle files to t
 devServer object will be used in webpack.config.js file
 
 Move html file from /src to /dist folder every time
-npm install html-webpack-plugin --save-dev
+npm install html-webpack-plugin --save-dev  
